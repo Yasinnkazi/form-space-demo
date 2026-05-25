@@ -37,8 +37,8 @@ export default function Home() {
         columns={[
           { title: 'Practice', links: [{ label: 'Philosophy', href: '#philosophy' }, { label: 'Projects', href: '#projects' }, { label: 'Studio', href: '#studio' }, { label: 'Services', href: '#services' }] },
           { title: 'Projects', links: [{ label: 'Residential', href: '#' }, { label: 'Commercial', href: '#' }, { label: 'Interiors', href: '#' }, { label: 'Urban', href: '#' }] },
-          { title: 'Contact', links: [{ label: '789 Design District', href: '#' }, { label: 'London, UK', href: '#' }, { label: 'studio@formandspace.com', href: '#' }, { label: '+44 20 7946 0182', href: '#' }] },
-          { title: 'Connect', links: [{ label: 'Instagram', href: '#' }, { label: 'ArchDaily', href: '#' }, { label: 'LinkedIn', href: '#' }, { label: 'Pinterest', href: '#' }] },
+          { title: 'Contact', links: [{ label: 'Lower Parel, Mumbai', href: '#' }, { label: 'Mumbai, India', href: '#' }, { label: 'buildhelix@gmail.com', href: '#' }, { label: '+91 90045 56455', href: '#' }] },
+          { title: 'Connect', links: [{ label: 'Instagram', href: '#' }, { label: 'WhatsApp', href: 'https://wa.me/919004556455' }, { label: 'LinkedIn', href: '#' }, { label: 'Pinterest', href: '#' }] },
         ]}
       />
     </main>

@@ -13,12 +13,12 @@ const testimonials = [
   {
     quote: 'Working with this studio was a masterclass in collaboration. Their ability to balance aesthetic ambition with practical constraints made our commercial project a resounding success — on time and on budget.',
     client: 'Marcus Devereux',
-    project: 'The Atrium, London',
+    project: 'The Atrium, Mumbai',
   },
   {
     quote: 'The restoration of our Georgian townhouse required a rare blend of historical sensitivity and contemporary vision. Form + Space exceeded every expectation. The result is both period-accurate and thoroughly modern.',
     client: 'Lady Catherine Winslow',
-    project: 'Chelsea Townhouse, London',
+    project: 'Pali Hill Residence, Mumbai',
   },
   {
     quote: 'They dont just design buildings — they create experiences. Our gallery space has been transformed. Visitors consistently remark on the flow of light and the intuitive layout. Absolutely world-class.',

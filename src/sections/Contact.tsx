@@ -2,7 +2,7 @@ import type { FormEvent } from 'react'
 import ScrollReveal from '../components/ui/ScrollReveal'
 import Section from '../components/ui/Section'
 import Button from '../components/ui/Button'
-import { MapPin, Phone, Mail, Clock, Send } from 'lucide-react'
+import { MapPin, Phone, Mail, Clock, Send, MessageCircle } from 'lucide-react'
 
 const inputClass =
   'w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3.5 text-white text-sm placeholder:text-white/25 focus:outline-none focus:border-brand-500/50 focus:ring-1 focus:ring-brand-500/30 transition-all duration-300'
@@ -65,7 +65,7 @@ export default function Contact() {
                 <input
                   id="phone"
                   type="tel"
-                  placeholder="+44 20 7946 0182"
+                  placeholder="+91 90045 56455"
                   className={inputClass}
                 />
               </div>
@@ -166,8 +166,8 @@ export default function Contact() {
                     <MapPin size={18} />
                   </div>
                   <div>
-                    <p className="text-white/80 text-sm font-medium">789 Design District</p>
-                    <p className="text-white/40 text-sm">London, EC2A 4NE, UK</p>
+                    <p className="text-white/80 text-sm font-medium">Lower Parel, Mumbai</p>
+                    <p className="text-white/40 text-sm">Mumbai, Maharashtra, India</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -175,16 +175,30 @@ export default function Contact() {
                     <Phone size={18} />
                   </div>
                   <div>
-                    <p className="text-white/80 text-sm font-medium">+44 20 7946 0182</p>
+                    <p className="text-white/80 text-sm font-medium">+91 90045 56455</p>
                     <p className="text-white/40 text-sm">Mon–Fri, 9am–6pm</p>
                   </div>
                 </div>
+                <a
+                  href="https://wa.me/919004556455"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-start gap-4 group"
+                >
+                  <div className="flex-shrink-0 w-10 h-10 rounded-xl bg-green-500/10 text-green-500 flex items-center justify-center group-hover:bg-green-500/20 transition-colors">
+                    <MessageCircle size={18} />
+                  </div>
+                  <div>
+                    <p className="text-white/80 text-sm font-medium group-hover:text-green-400 transition-colors">WhatsApp</p>
+                    <p className="text-white/40 text-sm">Quick replies, typically under 30 min</p>
+                  </div>
+                </a>
                 <div className="flex items-start gap-4">
                   <div className="flex-shrink-0 w-10 h-10 rounded-xl bg-brand-500/10 text-brand-500 flex items-center justify-center">
                     <Mail size={18} />
                   </div>
                   <div>
-                    <p className="text-white/80 text-sm font-medium">studio@formandspace.com</p>
+                    <p className="text-white/80 text-sm font-medium">buildhelix@gmail.com</p>
                     <p className="text-white/40 text-sm">We respond within 24 hours</p>
                   </div>
                 </div>
@@ -205,7 +219,7 @@ export default function Contact() {
                 <div className="text-center">
                   <MapPin size={32} className="text-brand-500/40 mx-auto mb-2" />
                   <p className="text-white/30 text-sm">Design District</p>
-                  <p className="text-white/20 text-xs">London, UK</p>
+                  <p className="text-white/20 text-xs">Mumbai, India</p>
                 </div>
               </div>
             </div>

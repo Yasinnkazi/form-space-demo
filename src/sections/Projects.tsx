@@ -18,7 +18,7 @@ const projects = [
   {
     id: 2,
     name: 'The Atrium',
-    location: 'London, UK',
+    location: 'Mumbai, India',
     category: 'Commercial',
     year: '2023',
     description: 'A workplace designed around a central light-filled courtyard, promoting collaboration and wellbeing.',
